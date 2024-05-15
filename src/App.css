@@ -6,9 +6,72 @@
   
 }
 
-h1{
-  color: #4f4f4f;
+:root {
+  --color-primary:  #1A202C   ;  /* Principal */
+  --color-secondary: #2D3748  ;  /* Secundario */
+  --color-accent: #4A5568  ;  /* Acento */
+  --color-background: #fcf5edd8   ;  /* Fondo */
+  --color-subtitule: #9b8a53   ;  /* Fondo */
+  --color-accent-bright: #3182CE   ;  /* Acento Vivo */
 }
-p{
-  color: #4f4f4f;
+
+body {
+  background-image: url('https://img.freepik.com/foto-gratis/fondo-papel-arrugado-blanco-simple-artesania-bricolaje_53876-128183.jpg?t=st=1715802692~exp=1715806292~hmac=6537728a2b6046686d399ce364510f3e17e6b2122eecd22c7efbba21c409209f&w=1380');
+  background-size: contain;
+
+
+  color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-accent-bright);
+}
+
+.navbar{
+  border-bottom: 4px solid #222222;
+}
+.encabezado{
+  border-bottom: 1px solid #222222;
+}
+.subtitulen{
+  color: var(--color-subtitule);
+  border-bottom: 1px solid #222222;
+}
+.imgEn{
+  width: 100%;
+  max-height: 400px;
+}
+
+.psob{
+  font-size: small;
+  
+ 
+}
+
+.sobremi{
+  border-right: 1px solid #222222;
+}
+.imgSobre{
+ max-width: 200px;
+ max-height: 200px;
+ margin-top: -20px;
+ border-radius: 100%;
+ margin-bottom: 20px;
+}
+
+.card {
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+}
+.body{
+  background-color: var(--color-background);
+}
+
+.btn-primary {
+  background-color: var(--color-accent-bright);
+  border-color: var(--color-accent-bright);
 }

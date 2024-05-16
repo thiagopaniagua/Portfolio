@@ -3,16 +3,22 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
+
 }
 
 :root {
-  --color-primary:  #1A202C   ;  /* Principal */
-  --color-secondary: #2D3748  ;  /* Secundario */
-  --color-accent: #4A5568  ;  /* Acento */
-  --color-background: #fcf5edd8   ;  /* Fondo */
-  --color-subtitule: #9b8a53   ;  /* Fondo */
-  --color-accent-bright: #3182CE   ;  /* Acento Vivo */
+  --color-primary: #1A202C;
+  /* Principal */
+  --color-secondary: #2D3748;
+  /* Secundario */
+  --color-accent: #4A5568;
+  /* Acento */
+  --color-background: #fcf5edd8;
+  /* Fondo */
+  --color-subtitule: #9b8a53;
+  /* Fondo */
+  --color-accent-bright: #3182CE;
+  /* Acento Vivo */
 }
 
 body {
@@ -23,51 +29,88 @@ body {
   color: var(--color-primary);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-primary);
+  font-family: 'Times New Roman';
+  font-weight: 550;
+}
+
+p {
+  font-family: 'Times New Roman';
 }
 
 a {
   color: var(--color-accent-bright);
+  font-family: times;
 }
 
-.navbar{
+.navbar {
   border-bottom: 4px solid #222222;
 }
-.encabezado{
+
+.encabezado {
   border-bottom: 1px solid #222222;
 }
-.subtitulen{
+
+.subtitulen {
   color: var(--color-subtitule);
   border-bottom: 1px solid #222222;
+
 }
-.imgEn{
+
+.imgEn {
   width: 100%;
   max-height: 400px;
 }
 
-.psob{
-  font-size: small;
-  
- 
+.psob {
+  font-size: 14px;
+
+
 }
 
-.sobremi{
+.sobremi {
   border-right: 1px solid #222222;
 }
-.imgSobre{
- max-width: 200px;
- max-height: 200px;
- margin-top: -20px;
- border-radius: 100%;
- margin-bottom: 20px;
+
+.imgSobre {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: -20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+
+.abajen {
+  border-bottom: 1px solid #222222;
+  padding-bottom: 15px;
+}
+
+.proyectos {
+  border-bottom: 1px solid #222222;
+}
+.proyectoss {
+  border-bottom: 1px solid #222222;
 }
 
 .card {
-  background-color: var(--color-secondary);
-  color: var(--color-background);
+  
+  background-color: rgba(255, 255, 255, 0.0); /* Blanco con 70% de opacidad */
+  
+  
 }
-.body{
+.card:hover{
+ 
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
+}
+
+.body {
   background-color: var(--color-background);
 }
 

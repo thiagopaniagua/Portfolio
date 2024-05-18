@@ -73,6 +73,9 @@ a {
 
 
 }
+.psbo3{
+  padding-right: 1px;
+}
 
 .sobremi {
   border-right: 1px solid #222222;
@@ -109,6 +112,19 @@ a {
  
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); /* Sombra al hacer hover */
 }
+
+.tecno{
+  border-right: 1px solid #222222;
+}
+
+.imgtecno{
+  width: 50px;
+}
+
+.ptecno{
+  margin-bottom: -1px;
+}
+
 
 .body {
   background-color: var(--color-background);

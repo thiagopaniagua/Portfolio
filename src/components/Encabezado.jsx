@@ -14,7 +14,7 @@ const Encabezado = () => {
                         <h2 className="">Soy Thiago Paniagua</h2>
                         <p>30/01/05</p>
                     </div>
-                    <div className="col-4 offset-3 text-end">
+                    <div className="col-4 offset-3 text-end psbo3">
                         <p className="psob">Programador full stack con conocimientos en MERN. Me gusta la programación, me gusta progresar y aprender en este largo viaje.</p>
                     </div>
                 </div>

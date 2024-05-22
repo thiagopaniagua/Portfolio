@@ -1,6 +1,6 @@
 const Encabezado = () => {
     return (
-        <div className="container my-1 encabezado">
+        <div className="container-fluid my-1 encabezado">
             <div className="row align-items-center">
                 <div className="col-12">
                     <h1 className="text-center">MI PORTFOLIO</h1>

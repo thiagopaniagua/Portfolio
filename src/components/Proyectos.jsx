@@ -3,7 +3,7 @@ const Proyectos = () => {
         <>
             <h1 className="mt-2">Proyectos</h1>
             <div className="proyectos"></div>
-            <div className="container text-center mt-4">
+            <div className="container-fluid text-center mt-4">
                 <div className="row">
                     <div className="col-4">
 
